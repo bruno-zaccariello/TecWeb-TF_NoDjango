@@ -1,0 +1,18 @@
+header {
+	background-color: #36db89 ;
+	font-size: 200% ;
+	}
+	
+footer {
+	background-color: darkgreen ;
+	}
+	
+.header img {
+  float: left;
+  width: 80px;
+  background: #555;
+}
+
+a	{
+	font-weight: 700;
+	}
