@@ -1,0 +1,14 @@
+.center {
+	text-align: center;
+	}
+	
+p		{
+	margin-left: 15px;
+	text-align: center;
+	text-align: justify;
+	}
+	
+img.center  {
+    display: block;
+    margin: 0 auto;
+	}	
