@@ -16,3 +16,19 @@ footer {
 a	{
 	font-weight: 700;
 	}
+	
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: orange;
+}
+
+a:active {
+	color: green
+}
