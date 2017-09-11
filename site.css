@@ -33,6 +33,47 @@ img {
 	height: auto;
 }
 
+
+/*TAGs Gerais*/
+	
+.header img {
+  margin-right: 10px;
+  float: left;
+  width: 80px;
+  background: #555;
+}
+
+
+
+/*LINKS*/
+
+a	{
+	font-weight: 700;
+	}
+	
+a:link{
+	color: red;
+	font-weight: bold;
+}
+
+a:visited{
+	color: purple;
+	font-weight: bold;
+}
+
+a:hover{
+	color: orange;
+	font-weight: bold;
+}
+
+a:active {
+	color: green;
+	font-weight: bold;
+}
+
+
+/*MENU DE NAVEGAÇÃO*/
+
 .navigation {
 	display: flex;
 	flex-flow: row wrap;
@@ -62,35 +103,4 @@ img {
   .navigation {
     flex-flow: column wrap;
   }
-}
-	
-.header img {
-  margin-right: 10px;
-  float: left;
-  width: 80px;
-  background: #555;
-}
-
-a	{
-	font-weight: 700;
-	}
-	
-a:link{
-	color: red;
-	font-weight: bold;
-}
-
-a:visited{
-	color: purple;
-	font-weight: bold;
-}
-
-a:hover{
-	color: orange;
-	font-weight: bold;
-}
-
-a:active {
-	color: green;
-	font-weight: bold;
 }

@@ -13,3 +13,11 @@ h2 		{
 h3 		{
 	color:cyan ;
 	}
+	
+.coment {
+	border: 2px ;
+	border-style: solid ;
+	border-color: black ;
+	border-width: 2px ;
+	padding: 5px ;
+	}
