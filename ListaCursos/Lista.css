@@ -1,19 +1,44 @@
 h1 {
-	 color: red;
-	 text-align: center;
+	color: red;
+	text-align: center;
+	text-indent: justify;
  }
  
  h3 {
-	 color: green;
+	text-align: center;
+	text-indent: justify;
+	color: green ;
  }
+ 
+ h3.color {
+	color:darkgreen ;
+ }
+ 
  body {
 	 background: #D6DBDF;
  }
  
 .container{
-	 display: flex;
-	 flex-direction:row;
-	 flex-wrap: no-wrap;
-	 justify-content: space-around;
-	 align-items: center;
+	text-align: center;
+	text-indent: justify;
+	width: 95% ;
+	display: grid ;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-gap: 10px;
+	align-items: center;
 	}
+	
+.box { 
+  border-radius: 5px; 
+  padding: 5px; 
+}
+	
+@media all and (max-width: 800px) {
+  .container {
+    width: 95% ;
+	display: flex ;
+	flex-flow: column wrap ;
+	justify-content: space-around ;
+	align-items: center;
+  }
+}
