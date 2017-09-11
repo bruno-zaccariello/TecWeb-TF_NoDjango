@@ -14,7 +14,14 @@ header {
 	
 	
 footer {
-	background-color: darkgreen ;
+	text-align: center;
+	padding-top: 5px;
+	border-top: 1px;
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 1px;
+	background-color: lightgray ;
+	font-size: 75% ;
 	}
 
 body {
