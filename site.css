@@ -82,7 +82,38 @@ a:active {
 	list-style-type: none;
 	background-color: #bfc1c3;
 	}
+	
+.navigation li ul {
+	position: absolute ;
+	list-style-type: none ;
+	display: none ;
+	}
+	
+.navigation li:hover ul {
+	display: flex ;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	}
+		
+.dropdown {
+	display: block ;
+	text-align: left ;
+	padding-left: 0px;
+	border-top: 2px solid #a0a0a1;
+	border-left: 0px;
+	margin-left: 0px;
+	background-color: #bfc1c3 ;
+	}
+	
+.dropcontent {
+	display: block ;
+	padding: 5px ;
+	}
 
+.dropcontent:hover {
+	background-color: darkgray;
+	}
+	
 .bloco a {
   text-decoration: none;
   display: block;
@@ -102,5 +133,18 @@ a:active {
 @media all and (max-width: 700px) {
   .navigation {
     flex-flow: column wrap;
+	text-align: center;
+	padding: 0;
+	margin: 5px;
+  }
+  
+  .navigation li:hover ul {
+	position: relative ;
+	}
+	
+  .dropdown {
+	background-color : lightgray ;
+	text-align: center;
+	text-indent: center-left;
   }
 }

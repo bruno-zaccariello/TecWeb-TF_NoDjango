@@ -10,51 +10,58 @@
   <body>
 		<!--
 			Resumo da correção do EP3: 4,0
-			- Nas referências de conteúdo, não há necessidade de usar a notação ./ para mesma pasta, isso já é implícito para o navegador.
-			- Uso incorreto ainda das headings - H2 sem H1; vários H1 nas mesmas seções de texto (-0,5).
-			- Muitas das suas tags estão com os atributos escritos sem aspas, isso é considerada uma má prática.
+			//- Nas referências de conteúdo, não há necessidade de usar a notação ./ para mesma pasta, isso já é implícito para o navegador.//
+			//- Uso incorreto ainda das headings - H2 sem H1; vários H1 nas mesmas seções de texto (-0,5).//
+			//- Muitas das suas tags estão com os atributos escritos sem aspas, isso é considerada uma má prática.//
 			- Cuidado com o que foi pedido: a ideia era ter uma página que detalhasse um curso, não tudo na mesma lista. Além disso, era para ser uma página de uma disciplina, não uma página com todas as disciplinas de todos os cursos!!
 			- Uso incorreto da tag UL - apenas a tag LI pode ir diretamente abaixo da UL (-0,5)
 		-->
-	<header class=header> <img src='./HomePage/Logo_01.jpg' alt='Faculdade Lorenzinni Tecnologia, a melhor do Brasil !' width='100px'/>Lorenzinni Tec.</header>
+	<header class="header"> <img src='./HomePage/Logo_01.jpg' alt='Faculdade Lorenzinni Tecnologia, a melhor do Brasil !' width='100px'/>Lorenzinni Tec.</header>
     
-	<ul class=navigation>
-	 <li class=bloco><a href="./index.html">Home Page</a>
-	 <li class=bloco><a href="./ListaCursos/Lista.html">Lista de Cursos</a>
-	 <li class=bloco><a href="./Disciplinas/Disciplinas.html">Disciplinas</a>
-	 <li class=bloco><a href="./DetalheCurso/DesCurso.html">Detalhes dos Cursos</a>
-	 <li class=bloco><a href ="./Noticias/noticias.html">Notícias</a>
+	<ul class="navigation">
+	 <li class="bloco"><a href="./index.html">Home Page</a></li>
+	 <li class="bloco"><a href="./ListaCursos/Lista.html">Lista de Cursos</a></li>
+	 <li class="bloco"><a href="">Disciplinas</a>
+		<ul class="dropdown">
+		 <li class="dropcontent"><a href="./Disciplinas/SI.html">Sistemas de Informação</a></li>
+		 <li class="dropcontent"><a href="./Disciplinas/PADS.html">Arquitetura de Software</a></li>
+		 <li class="dropcontent"><a href="./Disciplinas/RC.html">Redes de Computadores</a></li>
+		 <li class="dropcontent"><a href="./Disciplinas/JD.html">Jogos Digitais</a></li>
+		</ul>
+	 </li>
+	 <li class="bloco"><a href="./DetalheCurso/DesCurso.html">Detalhes dos Cursos</a></li>
+	 <li class="bloco"><a href ="./Noticias/noticias.html">Notícias</a></li>
 	</ul>
     
 	<img src='./HomePage/Logo_01.jpg' alt='Faculdade Lorenzinni Tecnologia, a melhor do Brasil !'/>
-    <h2 class=center>Sobre a Faculdade</h2> <!-- Onde está a H1? -->
+    <h2 class="center">Sobre a Faculdade</h2> <!-- Onde está a H1? -->
 	
-	<div class=desc>
-		<p class=desc>A Faculdade Lorenzinni é uma instituição de ensino privada, apesar disso é ligada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação (SDECTI). O talento e dedicação dos docentes, alunos e funcionários têm sido reconhecidos por diferentes rankings mundiais, criados para medir a qualidade das faculdades a partir de diversos critérios, principalmente os relacionados à produtividade científica.</p>
-		<p class=desc>A FLT busca excelência na área de tecnologia, trazendo inovações e melhoras na área, com cursos diversos, como Segurança da Informação, Arquitetura de Software, Redes de Computadores e Sistemas de Informação.</p>
+	<div class="desc">
+		<p class="desc">A Faculdade Lorenzinni é uma instituição de ensino privada, apesar disso é ligada à Secretaria de Desenvolvimento Econômico, Ciência, Tecnologia e Inovação (SDECTI). O talento e dedicação dos docentes, alunos e funcionários têm sido reconhecidos por diferentes rankings mundiais, criados para medir a qualidade das faculdades a partir de diversos critérios, principalmente os relacionados à produtividade científica.</p>
+		<p class="desc">A FLT busca excelência na área de tecnologia, trazendo inovações e melhoras na área, com cursos diversos, como Segurança da Informação, Arquitetura de Software, Redes de Computadores e Sistemas de Informação.</p>
     </div>
 	
-	<h3 class=center>Confira alguns comentários de ex-alunos</h3>
+	<h3 class="center">Confira alguns comentários de ex-alunos</h3>
 		
-		<div class=areacmt>
-			<div class=coment>
-				<p class=nomecmt>Pedro João da Silva :</p> 
-				<p class=cmt>Essa é a melhor faculdade que existe em realação a tecnologia, com excelentes professores e teconologia de ponta para os alunos aprenderem e terem sucesso no futuro</p>
+		<div class="areacmt">
+			<div class="coment">
+				<p class="nomecmt">Pedro João da Silva :</p> 
+				<p class="cmt">Essa é a melhor faculdade que existe em realação a tecnologia, com excelentes professores e teconologia de ponta para os alunos aprenderem e terem sucesso no futuro</p>
 			</div>
 			
-			<div class=coment>
-				<p class=nomecmt>Marcos Andrade :</p> 
-				<p class=cmt>Graças à Lorenzinni hoje tenho um grande nome na minha área, sendo reconhecido até internacionalmente</p>
+			<div class="coment">
+				<p class="nomecmt">Marcos Andrade :</p> 
+				<p class="cmt">Graças à Lorenzinni hoje tenho um grande nome na minha área, sendo reconhecido até internacionalmente</p>
 			</div>
 			
-			<div class=coment>
-				<p class=nomecmt>Maria Joanna :</p> 
-				<p class=cmt>Só tenho a agradecer aos professores pelo ensino e à Lorenzinni pela estrutura e pela oportunidade.</p>
+			<div class="coment">
+				<p class="nomecmt">Maria Joanna :</p> 
+				<p class="cmt">Só tenho a agradecer aos professores pelo ensino e à Lorenzinni pela estrutura e pela oportunidade.</p>
 			</div>
 			
-			<div class=coment>
-				<p class=nomecmt>Enzo Gabriel :</p> 
-				<p class=cmt>Consegui uma vaga após receber uma bolsa prestando o vestibular da faculdade</p>
+			<div class="coment">
+				<p class="nomecmt">Enzo Gabriel :</p> 
+				<p class="cmt">Consegui uma vaga após receber uma bolsa prestando o vestibular da faculdade</p>
 			</div>
 		</div>
 		

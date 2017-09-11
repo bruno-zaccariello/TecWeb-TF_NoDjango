@@ -15,5 +15,27 @@ img.center  {
 	
 h1 {
 	color: red;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+
+h2 {
+	color: darkred;
+	text-align: center;
+	text-transform: uppercase;
 }
 
+.tit {
+	margin-top: 20px;
+	padding-top: 20px;
+	}
+
+.separator {
+	text-align: center;
+	border-top: 2px solid red;
+    width: 5%;
+    margin: 5px auto auto;
+	}
