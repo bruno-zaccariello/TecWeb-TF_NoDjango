@@ -160,5 +160,7 @@ a:active {
 	background-color : lightgray ;
 	text-align: center;
 	text-indent: center-left;
+	margin-left: -1em ;
+	margin-right: -1em;
   }
 }
