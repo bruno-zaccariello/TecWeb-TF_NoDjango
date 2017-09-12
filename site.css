@@ -12,6 +12,10 @@ header {
 	background-color: lightgray ;
 	}
 	
+.header img {
+	margin:2px;
+	border: 0px;
+	}
 	
 footer {
 	text-align: center;
