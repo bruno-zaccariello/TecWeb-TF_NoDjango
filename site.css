@@ -132,17 +132,7 @@ a:active {
 .noanchor:hover {
     background-color: darkgray;
     color:orange;
-    }
-
-.LoginButton a {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-}
-
-.LoginButton a:hover {
-  background-color: darkgray;
-}	
+    }	
 	
 .bloco a {
   text-decoration: none;

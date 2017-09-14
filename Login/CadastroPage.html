@@ -3,7 +3,7 @@
   <head>
 	<link rel="stylesheet" type="text/css" href="../site.css">
 	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="LoginPage.css">
+	<link rel="stylesheet" type="text/css" href="CadastroPage.css">
     <meta name="viewport" content="width=device-width">
     <title>Faculdade Lorenzinni - Noticias</title>
   </head>
@@ -24,18 +24,59 @@
 	 </li>
 	 <li class="bloco"><a href="../DetalheCurso/DesCurso.html">Detalhes dos Cursos</a></li>
 	 <li class="bloco"><a href ="../Noticias/noticias.html">Notícias</a></li>
+	 <li class="bloco"><a href="../Login/LoginPage.html">Login</a></li>
 	</ul>
 	
-	<div class="LoginBox">
+	<div class="CadastroBox">
 		
-		<!-- CAIXA DE LOGIN -->
-		
-		<div class="LoginDiv">
-		
-		</div>
+		<!-- CAIXA DE CADASTRO-->
 		
 		<div class="CadastroDiv">
 		
+			<h2> CADASTRO </h2>
+			
+			<h3>Preencha seus dados:</h3>
+			
+			<form class="CadastroForm">
+			
+				<label class="LabelCad" for="FullName">Nome</label>:
+				<input type="text" name="FullName" placeholder="Seu nome..." id="FullName"/><br/>
+				
+				<label class="LabelCad" for="User">Usuário</label>:
+				<input type="text" name="User" placeholder="Usuário..." id="User"/><br/>
+				
+				<label class="LabelCad" for="Email">E-Mail</label>:
+				<input type="email" name="Email" placeholder="Email..." id="Email"/><br/>
+				
+				<label class="LabelCad" for="Birthday">Data Nasc.</label>:
+				<input type="date" name="Birthday" id="Birthday"/><br/>
+				
+				<label class="LabelCad" for="RA">RA</label>:
+				<input type="number" name="RA" placeholder="1700000" id="RA"/><br/>
+				
+				<label class="LabelCad" for="Curso">Curso</label>:
+				<input type="text" name="Curso" placeholder="Escreva seu curso..." id="Curso"/><br/>
+				
+				<label class="LabelCad" for="Phone">Telefone</label>:
+				<input type="tel" name="Phone" id="Phone" placeholder="(XX) 12345-6789"/><br/>
+				
+				<label class="LabelCad" for="Pass">Senha</label>:
+				<input type="password" name="Pass" id="Pass"/><br/>
+				
+				<label class="LabelCad" for="PassConfirm">Confirmar Senha</label>:
+				<input type="password" name="PassConfirm" id="PassConfirm"/><br/>
+				
+				<label class="LabelCad" for="Gender">Sexo</label>:
+				    <select id="Gender" name="Gender">
+						<option value="Homem">Homem</option>
+						<option value="Mulher">Mulher</option>
+						<option value="Outro">Outro</option>
+					</select>
+				
+				<span>____________________</span>
+				
+			</form>
+			
 		</div>
 	
 	</div>
