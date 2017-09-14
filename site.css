@@ -126,13 +126,24 @@ a:active {
     font-family: sans-serif;
     font-weight: 550;
     padding: 1em;
-    color: floralwhite ;
+    color: purple;
     }
 
 .noanchor:hover {
     background-color: darkgray;
+    color:orange;
     }
 
+.LoginButton a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+}
+
+.LoginButton a:hover {
+  background-color: darkgray;
+}	
+	
 .bloco a {
   text-decoration: none;
   display: block;
@@ -159,5 +170,7 @@ a:active {
 	background-color : lightgray ;
 	text-align: center;
 	text-indent: center-left;
+	margin-left: -1em ;
+	margin-right: -1em;
   }
 }
