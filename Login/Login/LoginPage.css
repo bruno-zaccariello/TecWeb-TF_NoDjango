@@ -56,6 +56,11 @@ input[type="checkbox"] {
 	width: 30%;
 }
 
+.botaoReset:hover {
+    background-color: #ba3a35;
+    color: white;
+}
+
 .inputlogin {
 	width:173px;
 	box-sizing:border-box;
@@ -74,11 +79,6 @@ input[type="checkbox"] {
     background-position: 5px 5px; 
     background-repeat: no-repeat;
 	padding-left: 20px;
-}
-
-.botaoReset:hover {
-    background-color: #ba3a35;
-    color: white;
 }
 
 .botaoCadastro{
@@ -111,8 +111,6 @@ input[type="checkbox"] {
 	justify: space-evenly;
 	width: 650px;
 	margin: 0 auto;
-	border: ;
-	background-color: ;
 }
 
 .LoginDiv {

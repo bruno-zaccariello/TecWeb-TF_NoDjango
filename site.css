@@ -81,7 +81,7 @@ a:active {
 
 .navigation {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
 	justify-content: flex-start;
 	list-style-type: none;
 	background-color: #bfc1c3;
