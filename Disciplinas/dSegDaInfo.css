@@ -19,7 +19,18 @@ h4 {
     text-align: left;
     margin-top: 2px;
 }
-
+.desc {
+	text-align: center;
+	font-family: Georgia, serif;
+	font-size: 105%;
+	color: black;
+	font-weight: 550;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-left: 1px crimson solid;
+	border-right: 1px crimson solid;
+	padding: 5px;
+	}
 .BigBox {
     display: flex;
     flex-flow: row wrap;
@@ -56,7 +67,40 @@ h4 {
 .MateriaList li:hover ul {
     display: flex;
 }
-
+.areacmt {
+	display: flex ;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	list-style-type: none;
+	border: 2px ;
+	border-style: solid ;
+	border-color: blue ;
+	border-width: 2px ;
+	border-top: none ;
+	border-bottom: none ;
+	padding: 3px ;
+	}
+.coment {
+	background-color: #eaeaea ;
+	border: 2px ;
+	border-style: solid ;
+	border-color: black ;
+	border-width: 2px ;
+	padding: 5px ;
+	margin-top: 10px ;
+	margin-bottom: 10px ;
+	max-width: 20%
+	}
+.nomecmt {
+	font-size: 110% ;
+	text-decoration: underline ;
+	font-weight: bold ;
+	}
+.cmt {
+	text-align: left ;
+	padding: 5px ;
+	padding-left: 15px ;
+	}
 .dropmenu {
     display: flex;
     flex-flow: row wrap;
