@@ -2,8 +2,8 @@
 <html>
   <head>
 	<link rel="stylesheet" type="text/css" href="../../site.css">
-	<meta charset="ANSI" />
-	<link rel="stylesheet" type="text/css" href="LoginPage.css">
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="ForgotPass.css">
     <meta name="viewport" content="width=device-width">
     <title>Faculdade Lorenzinni - Noticias</title>
   </head>
@@ -26,45 +26,34 @@
 	 <li class="bloco"><a href ="../../Noticias/noticias.html">Notícias</a></li>
 	 <li class="bloco"><a href="../../Forms/Contato/Contato.html">Contato</a></li>
 	 <li class="bloco"><a href="../../Forms/Login/LoginPage.html">Login</a></li>
-
-    </ul>
+	</ul>
 	
-	<div class="LoginBox">
+	<div class="CadastroBox">
 		
-		<!-- CAIXA DE LOGIN -->
-		
-		<div class="LoginDiv">
-			
-			<p class="calltext">Já possui conta ?</p>
-			<h2>LOGIN :</h2>
-			
-			<form method="POST">
-				
-				<label for="usuario">Usuário</label>:<br/>
-				<input class="inputlogin" type="text" name="Usuario" id="usuario"><br/>
-				
-				<label for="password">Senha</label>:<br>
-				<input class="inputpass" type="password" name="Senha" id="password"><br/>
-				
-				<input type="checkbox" name="RememberMe" id="RememberMe">
-				<label for="RememberMe">Lembre-se de mim</label><br/>
-				
-				<button class="botaoReset" type="reset">Limpar</button>
-				<button class="botaoLogin" type="submit">Login</button><br/>
-				
-				<a class="ForgotPass" href="ForgotPass.html">Esqueci minha senha</a>
-			
-			</form>
-		
-		</div>
+		<!-- CAIXA DE CADASTRO-->
 		
 		<div class="CadastroDiv">
 		
-			<p class="calltext">Novo no site ?</p>
-			<h2>CADASTRE-SE :</h2>
+			<h2> ESQUECI MINHA SENHA </h2>
 			
-			<a href="../Cadastro/CadastroPage.html"><button class="botaoCadastro" type="submit">Cadastre-se</button></a>
-		
+			<h3>Preencha seus dados:</h3>
+			
+			<form class="CadastroForm" method="POST">
+			
+				<label class="LabelCad" for="ConfirmUser">Digite seu nome, e-mail ou RA</label>:<br/>
+				<input type="text" name="ConfirmUser" placeholder="  ..." id="ConfirmUser"/><br/>
+
+                <label class="LabelCad" for="NewPass">Nova Senha</label>:
+				<input type="password" name="NewPass" placeholder="  ..." id="NewPass"/><br/>
+				
+                <label class="LabelCad" for="ConfNewPass">Confirmar Senha</label>:
+				<input type="password" name="ConfNewPass" placeholder="  ..." id="ConfNewPass"/><br/>
+                
+				<button class="botaoReset" type="reset">Limpar</button>
+				<button class="botaoCadastro" type="submit">Enviar</button><br/>
+				
+				</form>
+			
 		</div>
 	
 	</div>
