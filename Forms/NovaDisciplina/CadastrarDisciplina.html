@@ -3,7 +3,7 @@
   <head>
 	<link rel="stylesheet" type="text/css" href="../../site.css">
 	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="ForgotPass.css">
+	<link rel="stylesheet" type="text/css" href="CadastrarDisciplina.css">
     <meta name="viewport" content="width=device-width">
     <title>Faculdade Lorenzinni - Noticias</title>
   </head>
@@ -25,33 +25,46 @@
 	 <li class="bloco"><a href="../../Forms/Login/LoginPage.html">Login</a></li>
 	</ul>
 	
-	<div class="CadastroBox">
-		
-		<!-- CAIXA DE CADASTRO-->
-		
-		<div class="CadastroDiv">
-		
-			<h2> ESQUECI MINHA SENHA </h2>
-			
-			<h3>Preencha seus dados:</h3>
-			
-			<form class="CadastroForm" method="POST">
-			
-				<label class="LabelCad" for="ConfirmUser">Digite seu nome, e-mail ou RA</label>:<br/>
-				<input type="text" name="ConfirmUser" placeholder="  ..." id="ConfirmUser"/><br/>
+	<div class="Container">
+	
+		<h1>Cadastrar Disciplina</h1>
+	
+		<div class="DivNew">
 
-                <label class="LabelCad" for="NewPass">Nova Senha</label>:
-				<input type="password" name="NewPass" placeholder="  ..." id="NewPass"/><br/>
+			<form class="CadastroForm" method="POST">
 				
-                <label class="LabelCad" for="ConfNewPass">Confirmar Senha</label>:
-				<input type="password" name="ConfNewPass" placeholder="  ..." id="ConfNewPass"/><br/>
-                
-				<button class="botaoReset" type="reset">Limpar</button>
-				<button class="botaoCadastro" type="submit">Enviar</button><br/>
+				<div class="DivInput">
+				<label for="PR">Professor Responsável :</label><br/>
+				<input type="text" name="PR" id="PR"><br/>
+				</div>
 				
-				</form>
-			
+				<div class="DivInput">
+				<label for="HM">Horas Mensais:</label><br/>
+				<input type="text" name="HM" id="HM"><br/>
+				</div>
+				
+				<div class="DivInput">
+				<label for="DA">Duração da Aula:</label><br/>
+				<input type="text" name="DA" id="DA"><br/>
+				</div>
+				
+				<div class="DivInput">
+				<label for="DM">Dias da Semana Ministrada:</label><br/>
+				<input type="text" name="DM" id="DM"><br/>
+				</div>
+				
+				<br/>
+					
+				<div class="DivInput">
+					<label for="ementa">Ementa:</label><br/>
+					<textarea type="text" name="ementa" id="ementa"></textarea>
+				</div>
+
+		
 		</div>
+		
+		<button class="botaoReset" type="reset">Limpar</button>
+		<button class="botaoLogin" type="submit">Enviar</button><br/>
 	
 	</div>
 	
