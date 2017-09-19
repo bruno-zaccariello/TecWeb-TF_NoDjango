@@ -63,6 +63,11 @@ h3 		{
 	max-width: 20%
 	}
 	
+.IMGlogo {
+	max-height: 400px;
+	object-fit: cover;
+}
+	
 .nomecmt {
 	font-size: 110% ;
 	text-decoration: underline ;
