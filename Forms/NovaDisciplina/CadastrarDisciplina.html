@@ -30,7 +30,7 @@
 		<h1>Cadastrar Disciplina</h1>
 	
 		<div class="DivNew">
-			<!-- Formulário não fecha em lugar nenhum! -->
+			
 			<form class="CadastroForm" method="POST">
 				
 				<div class="DivInput">
@@ -40,7 +40,7 @@
 				
 				<div class="DivInput">
 				<label for="HM">Horas Mensais:</label><br/>
-				<input type="text" name="HM" id="HM"><br/>
+				<input type="number" name="HM" id="HM"><br/>
 				</div>
 				
 				<div class="DivInput">
@@ -59,11 +59,13 @@
 					<label for="ementa">Ementa:</label><br/>
 					<textarea type="text" name="ementa" id="ementa"></textarea>
 				</div>
-
-		
+			
+				<button class="botaoReset" type="reset">Limpar</button>
+				<button class="botaoLogin" type="submit">Enviar</button><br/>
+			
+			</form>
+			
 		</div>
-		<button class="botaoReset" type="reset">Limpar</button>
-		<button class="botaoLogin" type="submit">Enviar</button><br/>
 	
 	</div>
 	
