@@ -52,10 +52,19 @@ h1 {
     color: blue;
 }
 
-.image {
-	height: 200px;
+.img_container {
 	width: 200px;
+	height: 200px;
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+}
+
+.image {
+	height: 100%;
+	width: 100%;
 	object-fit:cover;
+	transition: 0.5s;
 	}
  
 .container a {
@@ -64,7 +73,6 @@ h1 {
 	}
 	
 .container a:hover {
-	font-size: 103%;
 	color: #003a15;
 	}
  
@@ -83,6 +91,11 @@ h1 {
   border-radius: 5px; 
   padding: 5px; 
 }
+
+.box:hover .image {
+	height: 110%;
+	width: 110%;
+} 
 	
 @media all and (max-width: 800px) {
   .container {
